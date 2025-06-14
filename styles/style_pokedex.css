@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: lightskyblue;
+    padding: 10px;
+}
+
+header, nav, aside, main, footer{
+    background-color: darkslategrey;
+    padding: 8px;
+    border: 1px solid blue;
+}
+
+.contenido{
+    display: flex;
+    flex: 2;
+}
+
+aside{ 
+    flex: 3;
+
+}
+
+main {
+    gap: 5px;
+}
+
+table {
+    background-color: lightblue;
+    width: 50%;
+    border-collapse: collapse;
+}
+th{
+    font-weight: bold;
+    background-color: darkgray;
+    columns: white;
+}
+th, td{
+    border: 1px solid lightgreen;
+    padding: 8px;
+    text-align: center;
+}
